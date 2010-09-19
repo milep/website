@@ -1,4 +1,5 @@
 Website::Application.configure do
+  config.action_view.javascript_expansions[:defaults] = %w(jquery.min)
   # Settings specified here will take precedence over those in config/environment.rb
 
   # In the development environment your application's code is reloaded on
