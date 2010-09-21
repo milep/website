@@ -1,5 +1,9 @@
 Website::Application.routes.draw do
-  resources :pages
+  scope 'admin' do
+    resources :pages
+  end
+
+  match "/:id", :to => "home#show_page", :constraints => {:id => /\w+/}
 
   get "home/index"
 
