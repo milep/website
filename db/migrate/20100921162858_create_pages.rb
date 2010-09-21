@@ -1,0 +1,18 @@
+class CreatePages < ActiveRecord::Migration
+  def self.up
+    create_table :pages do |t|
+      t.string :title
+      t.string :short_name
+      t.integer :order
+      t.text :body
+
+      t.timestamps
+
+    end
+    add_index :pages, :short_name
+  end
+
+  def self.down
+    drop_table :pages
+  end
+end

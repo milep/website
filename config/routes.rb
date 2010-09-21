@@ -1,4 +1,6 @@
 Website::Application.routes.draw do
+  resources :pages
+
   get "home/index"
 
   # The priority is based upon order of creation:
