@@ -14,7 +14,7 @@
     #nav
       %ul
         - %w(etusivu yhteystiedot).each do |name|
-          %li= link_to(name.capitalize, name)
+          %li= link_to(name.capitalize, '/' + name)
 
     = yield
 	
