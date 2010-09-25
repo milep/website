@@ -1,4 +1,11 @@
 Website::Application.routes.draw do
+  devise_for :users
+  # devise_scope :user do
+  #   get 'users/sign_in', :to => 'devise/sessions#new', :as => 'new_user_session'
+  #   post 'users/sign_in', :to => 'devise/sessions#create', :as => 'user_session'
+  #   get 'users/sign_out', :to => 'devise/sessions#destroy', :as => 'destroy_user_session'
+  # end
+
   scope 'admin' do
     resources :pages
   end

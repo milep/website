@@ -19,6 +19,11 @@ gem 'mysql2'
 # Bundle the extra gems:
 gem 'haml-rails'
 gem 'jquery-rails'
+gem 'devise'
+group :development do
+  gem 'hpricot'
+  gem 'ruby_parser'
+end
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators

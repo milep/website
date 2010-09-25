@@ -15,6 +15,15 @@
       %ul
         - %w(etusivu yhteystiedot).each do |name|
           %li= link_to(name.capitalize, '/' + name)
+        - if current_user
+          %li= link_to('Sign out', destroy_user_session_path)
+
+    - if notice || alert
+      #notices
+        %p.notice
+          = notice
+          %p.alert
+            = alert
 
     = yield
 	
