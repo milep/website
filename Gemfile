@@ -20,6 +20,7 @@ gem 'mysql2'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'devise'
+gem "compass", ">= 0.10.5"
 group :development do
   gem 'hpricot'
   gem 'ruby_parser'
