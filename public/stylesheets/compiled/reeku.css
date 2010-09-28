@@ -14,22 +14,28 @@ body {
   background-color: #ff0;
 }
 
-/* line 17, ../../../app/stylesheets/reeku.scss */
+/* line 18, ../../../app/stylesheets/reeku.scss */
 #right-margin {
   background-color: #f0f;
 }
 
-/* line 21, ../../../app/stylesheets/reeku.scss */
+/* line 22, ../../../app/stylesheets/reeku.scss */
 #header {
   background-color: #fff;
 }
 
-/* line 25, ../../../app/stylesheets/reeku.scss */
+/* line 26, ../../../app/stylesheets/reeku.scss */
 #nav {
   background-color: #0f0;
 }
 
-/* line 29, ../../../app/stylesheets/reeku.scss */
+/* line 30, ../../../app/stylesheets/reeku.scss */
 #content {
   background-color: #00f;
+}
+
+/* line 34, ../../../app/stylesheets/reeku.scss */
+#contact {
+  font-size: 1.4em;
+  margin-top: 10px;
 }

@@ -3,31 +3,36 @@ $blueprint-grid-width: 30px;
 $blueprint-grid-margin: 10px;
 
 body {
-     background-color: #799577;
+  background-color: #799577;
 }
 
 #container {
-     margin-top: 15px;
-     background-color: #f00;
+  margin-top: 15px;
+  background-color: #f00;
 }
 
 #left-margin {
-     background-color: #ff0;
+  background-color: #ff0;
 }
+
 #right-margin {
-     background-color: #f0f;
+  background-color: #f0f;
 }
 
 #header {
-     background-color: #fff;
+  background-color: #fff;
 }
 
 #nav {
-     background-color: #0f0;
+  background-color: #0f0;
 }
 
 #content {
-     background-color: #00f;
+  background-color: #00f;
 }
 
+#contact {
+  font-size: 1.4em;
+  margin-top: 10px;
+}
 
