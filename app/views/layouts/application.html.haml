@@ -17,8 +17,16 @@
       #left-margin.span-4
         &nbsp;
       #middle.span-16
-        #header.span-16.last
-          = image_tag('RRR-logo-2.jpg')
+        #header.span-16.last.showgrid
+          #header-left.span-6.prepend-2
+            = image_tag('RRR-logo-2.jpg')
+            #contact
+              Erkki Leppänen<br>
+              Haaparinne 20<br>
+              44150 Äänekoski<br>
+              puh. 040 738 9990<br>
+          #header-right.span-8.last
+            = image_tag('reeku-1.jpg')
         #nav.span-16.last
           %ul
             - %w(etusivu yhteystiedot).each do |name|
