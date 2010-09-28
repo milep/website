@@ -8,26 +8,33 @@
     = stylesheet_link_tag 'compiled/print.css', :media => 'print'
     /[if lt IE 8]
       = stylesheet_link_tag 'compiled/ie.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'compiled/reeku.css'
     = javascript_include_tag :defaults
     = csrf_meta_tag
 
   %body
-    #header
-      = image_tag('RRR-logo-2.jpg')
+    #container.container
+      #left-margin.span-4
+        &nbsp;
+      #middle.span-16
+        #header.span-16.last
+          = image_tag('RRR-logo-2.jpg')
+        #nav.span-16.last
+          %ul
+            - %w(etusivu yhteystiedot).each do |name|
+              %li= link_to(name.capitalize, '/' + name)
+            - if current_user
+              %li= link_to('Sign out', destroy_user_session_path)
 
-    #nav
-      %ul
-        - %w(etusivu yhteystiedot).each do |name|
-          %li= link_to(name.capitalize, '/' + name)
-        - if current_user
-          %li= link_to('Sign out', destroy_user_session_path)
+        - if notice || alert
+          #notices.span-16.last
+            %p.notice
+              = notice
+              %p.alert
+                = alert
 
-    - if notice || alert
-      #notices
-        %p.notice
-          = notice
-          %p.alert
-            = alert
+        = yield
 
-    = yield
-	
+      #right-margin.span-4.last
+        &nbsp;
+

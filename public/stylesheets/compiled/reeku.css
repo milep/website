@@ -1,0 +1,34 @@
+/* line 5, ../../../app/stylesheets/reeku.scss */
+body {
+  background-color: #799577;
+}
+
+/* line 9, ../../../app/stylesheets/reeku.scss */
+#container {
+  background-color: #f00;
+}
+
+/* line 13, ../../../app/stylesheets/reeku.scss */
+#left-margin {
+  background-color: #ff0;
+}
+
+/* line 16, ../../../app/stylesheets/reeku.scss */
+#right-margin {
+  background-color: #f0f;
+}
+
+/* line 20, ../../../app/stylesheets/reeku.scss */
+#header {
+  background-color: #fff;
+}
+
+/* line 24, ../../../app/stylesheets/reeku.scss */
+#nav {
+  background-color: #0f0;
+}
+
+/* line 28, ../../../app/stylesheets/reeku.scss */
+#content {
+  background-color: #00f;
+}
