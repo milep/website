@@ -6,36 +6,64 @@ body {
 /* line 9, ../../../app/stylesheets/reeku.scss */
 #container {
   margin-top: 15px;
-  background-color: #f00;
-}
-
-/* line 14, ../../../app/stylesheets/reeku.scss */
-#left-margin {
-  background-color: #ff0;
-}
-
-/* line 18, ../../../app/stylesheets/reeku.scss */
-#right-margin {
-  background-color: #f0f;
-}
-
-/* line 22, ../../../app/stylesheets/reeku.scss */
-#header {
+  padding-top: 15px;
+  padding-bottom: 50px;
   background-color: #fff;
 }
 
-/* line 26, ../../../app/stylesheets/reeku.scss */
-#nav {
-  background-color: #0f0;
+/* line 16, ../../../app/stylesheets/reeku.scss */
+#left-margin {
+  /*  background-color: #ff0;*/
 }
 
-/* line 30, ../../../app/stylesheets/reeku.scss */
+/* line 20, ../../../app/stylesheets/reeku.scss */
+#right-margin {
+  /*  background-color: #f0f;*/
+}
+
+/* line 24, ../../../app/stylesheets/reeku.scss */
+#header {
+  /*  background-color: #fff;*/
+}
+
+/* line 29, ../../../app/stylesheets/reeku.scss */
 #content {
-  background-color: #00f;
+  /*  background-color: #00f; */
 }
 
-/* line 34, ../../../app/stylesheets/reeku.scss */
+/* line 33, ../../../app/stylesheets/reeku.scss */
 #contact {
   font-size: 1.4em;
   margin-top: 10px;
+}
+
+/* line 42, ../../../app/stylesheets/reeku.scss */
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 48, ../../../app/stylesheets/reeku.scss */
+#nav li {
+  float: left;
+}
+
+/* line 51, ../../../app/stylesheets/reeku.scss */
+#nav a:link, a:visited {
+  display: block;
+  width: 120px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #597557;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 62, ../../../app/stylesheets/reeku.scss */
+#nav a:hover, a:active {
+  background-color: #7A991A;
 }

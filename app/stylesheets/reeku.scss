@@ -8,31 +8,60 @@ body {
 
 #container {
   margin-top: 15px;
-  background-color: #f00;
-}
-
-#left-margin {
-  background-color: #ff0;
-}
-
-#right-margin {
-  background-color: #f0f;
-}
-
-#header {
+  padding-top: 15px;
+  padding-bottom: 50px;
   background-color: #fff;
 }
 
-#nav {
-  background-color: #0f0;
+#left-margin {
+/*  background-color: #ff0;*/
 }
 
+#right-margin {
+/*  background-color: #f0f;*/
+}
+
+#header {
+/*  background-color: #fff;*/
+}
+
+
 #content {
-  background-color: #00f;
+/*  background-color: #00f; */
 }
 
 #contact {
   font-size: 1.4em;
   margin-top: 10px;
 }
+
+#nav {
+
+}
+
+#nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+#nav li {
+  float:left;
+}
+#nav a:link,a:visited {
+  display:block;
+  width:120px;
+  font-weight:bold;
+  color:#FFFFFF;
+  background-color: #597557;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+#nav a:hover,a:active {
+  background-color:#7A991A;
+}
+
+
 
