@@ -36,32 +36,35 @@ body {
 }
 
 #nav {
-
+  ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+  }
+  li {
+    float:left;
+  }
+  a {
+    display:block;
+    width:201px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color: #597557;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+    &:hover {
+      background-color:#7A991A;
+    }
+    &:active {
+      background-color:#7A991A;
+    }
+  }
 }
 
-#nav ul {
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-}
-#nav li {
-  float:left;
-}
-#nav a:link,a:visited {
-  display:block;
-  width:120px;
-  font-weight:bold;
-  color:#FFFFFF;
-  background-color: #597557;
-  text-align:center;
-  padding:4px;
-  text-decoration:none;
-  text-transform:uppercase;
-}
-#nav a:hover,a:active {
-  background-color:#7A991A;
-}
+
 
 
 

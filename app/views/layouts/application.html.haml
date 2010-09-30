@@ -27,12 +27,10 @@
               puh. 040 738 9990<br>
           #header-right.span-8.last
             = image_tag('reeku-1.jpg')
-        #nav.span-16.last
+        #nav.span-16.last.prepend-top
           %ul
-            - %w(etusivu yhteystiedot).each do |name|
-              %li= link_to(name.capitalize, '/' + name)
-            - if current_user
-              %li= link_to('Sign out', destroy_user_session_path)
+            - %w(remontit_ja_saneeraus kanoottivuokraus ohjelmapalvelut).each do |name|
+              %li= link_to(name.capitalize.humanize, '/' + name)
 
         - if notice || alert
           #notices.span-16.last
@@ -45,4 +43,6 @@
 
       #right-margin.span-4.last
         &nbsp;
+        - if current_user
+          = link_to('Sign out', destroy_user_session_path)
 

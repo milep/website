@@ -37,23 +37,21 @@ body {
   margin-top: 10px;
 }
 
-/* line 42, ../../../app/stylesheets/reeku.scss */
+/* line 39, ../../../app/stylesheets/reeku.scss */
 #nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-
-/* line 48, ../../../app/stylesheets/reeku.scss */
+/* line 45, ../../../app/stylesheets/reeku.scss */
 #nav li {
   float: left;
 }
-
-/* line 51, ../../../app/stylesheets/reeku.scss */
-#nav a:link, a:visited {
+/* line 48, ../../../app/stylesheets/reeku.scss */
+#nav a {
   display: block;
-  width: 120px;
+  width: 201px;
   font-weight: bold;
   color: #FFFFFF;
   background-color: #597557;
@@ -62,8 +60,11 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-
-/* line 62, ../../../app/stylesheets/reeku.scss */
-#nav a:hover, a:active {
+/* line 58, ../../../app/stylesheets/reeku.scss */
+#nav a:hover {
+  background-color: #7A991A;
+}
+/* line 61, ../../../app/stylesheets/reeku.scss */
+#nav a:active {
   background-color: #7A991A;
 }
