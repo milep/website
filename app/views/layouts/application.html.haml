@@ -30,7 +30,7 @@
         #nav.span-16.last.prepend-top
           %ul
             - %w(remontit_ja_saneeraus kanoottivuokraus ohjelmapalvelut).each do |name|
-              %li= link_to(name.capitalize.humanize, '/' + name)
+              %li= link_to(name.capitalize.humanize, root_path + name)
 
         - if notice || alert
           #notices.span-16.last
