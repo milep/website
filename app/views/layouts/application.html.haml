@@ -46,4 +46,12 @@
         &nbsp;
         - if current_user
           = link_to('Sign out', destroy_user_session_path)
+    :javascript
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    :javascript
+      try {
+      var pageTracker = _gat._getTracker("UA-10181474-1");
+      pageTracker._trackPageview();
+      } catch(err) {}
 
