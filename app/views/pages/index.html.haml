@@ -1,11 +1,10 @@
-%h1 Listing pages
+%h2 Listing pages
 
 %table
   %tr
     %th Title
     %th Short name
     %th Order
-    %th Body
     %th
     %th
     %th
@@ -15,7 +14,6 @@
       %td= page.title
       %td= page.short_name
       %td= page.order
-      %td= page.body
       %td= link_to 'Show', page
       %td= link_to 'Edit', edit_page_path(page)
       %td= link_to 'Destroy', page, :confirm => 'Are you sure?', :method => :delete
